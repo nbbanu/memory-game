@@ -10,84 +10,91 @@
   <body>
     <div class="container center-center">
       <div class="game-container">
-        <div class="game-info">
-          <button class="start-btn">START</button>
+        <div class="controls">
+          <button class="start-btn btn" onclick="startGame()">START</button>
           <div class="moves-time">
-            <div class="moves info-text">10 Moves</div>
-            <div class="time info-text">60 Sec</div>
+            <div class="info-text">Moves: <span class="moves">0</span></div>
+            <div class="info-text">Sec: <span class="time">0</span></div>
           </div>
         </div>
         <div class="game-boxes">
+          <div class="popup">
+            <div class="closeBtn" onclick="closePopup()">X</div>
+            <p>GAME OVER!</p>
+            <span >MOVES: <span class="popup-moves"></span></span>
+            <span >YOUR TİME: <span class="popup-time"></span></span>
+            <button class="restart btn" onclick="restartGame()">RESTART</button>
+          </div>
           <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
+              <div class="card-face game-box-front center-center"></div>
               <div class="card-face game-box-back center-center"><i class="fa-regular fa-lemon"></i></div>
             </div>
           </div>
           <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center"><i class="fa-solid fa-leaf"></i></div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center" ><i class="fa-solid fa-leaf"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
+              <div class="card-face game-box-front center-center"></div>
               <div class="card-face game-box-back center-center"><i class="fa-solid fa-carrot"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
+              <div class="card-face game-box-front center-center"></div>
               <div class="card-face game-box-back center-center"><i class="fa-solid fa-apple-whole"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
+              <div class="card-face game-box-front center-center"></div>
               <div class="card-face game-box-back center-center"><i class="fa-solid fa-face-grin-stars"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
+              <div class="card-face game-box-front center-center"></div>
               <div class="card-face game-box-back center-center"><i class="fa-regular fa-sun"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-solid fa-carrot"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-solid fa-face-grin-stars"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-regular fa-sun"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-regular fa-lemon"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-solid fa-leaf"></i></div>
             </div>
         </div>
         <div class="game-box">
             <div class="game-box-inner">
-              <div class="card-face game-box-front center-center">Ön</div>
-              <div class="card-face game-box-back center-center">Arka</div>
+              <div class="card-face game-box-front center-center"></div>
+              <div class="card-face game-box-back center-center"><i class="fa-solid fa-apple-whole"></i></div>
             </div>
         </div>
       </div>
